@@ -1,17 +1,18 @@
-$bgColor: #24292e;
-$text: #fff;
+@import './variables.scss';
+@import './fonts.scss';
+@import './reset.scss';
 
-@font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-
-body {
-  padding: 1rem;
-  margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
-}
+@import './swiper.scss';
+@import './additional-classes.scss';
+@import './sub-title.scss';
+@import './buttons.scss';
+@import './menu.scss';
+@import './header.scss';
+@import './main.scss';
+@import './description.scss';
+@import './brand-links.scss';
+@import './types-of-technique.scss';
+@import './pricies.scss';
+@import './table.scss';
+@import './footer.scss';
+@import './form.scss';
