@@ -831,7 +831,8 @@ input[type=number]::-webkit-outer-spin-button {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  gap: 15px; }
+  gap: 15px;
+  max-width: 1240px; }
   .footer--disable {
     display: none; }
   @media screen and (max-width: 1120px) {
